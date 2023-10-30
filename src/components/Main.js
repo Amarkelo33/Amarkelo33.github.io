@@ -35,7 +35,11 @@ function Main() {
                     <style jsx>{
                         `.main-nav {
                             display: ${hamburgerOpen ? `block` : `none`}
-                        }`
+                        }
+                        .main-hamburger {
+                            display: ${hamburgerOpen ? `none` : `flex`};
+                        }
+                        `
                     }</style>
                 </div>
             </div>

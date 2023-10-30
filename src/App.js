@@ -1,5 +1,6 @@
 import React from 'react'
 import Main from './components/Main'
+import About from './components/About'
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
@@ -584,7 +585,7 @@ function App() {
                   }}
             />
             <Main/>
-
+            <About/>
         </div>
     )
 }
