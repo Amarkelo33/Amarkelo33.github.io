@@ -1,5 +1,6 @@
 import React from 'react'
 import aboutPic from '../img/about-promo.jpeg'
+import wrapperIcon from '../icons/coding.svg'
 import '../style.css'
 
 function About() {
@@ -28,7 +29,19 @@ function About() {
                         Let's team up and transform your digital aspirations into tangible, awe-inspiring realities! 🚀💻✨
                         </p>
                     </div>
-                    <div className = 'about-blog'></div>
+                    <div className = 'blog-wrapper'>
+                        <div className = 'about-blog'>
+                            <div className = 'icon-wrapper'>
+                                <img src = {wrapperIcon} alt ='Computer'></img>
+                            </div>
+                            <div className = 'blog-descr'>
+                                <h3>Web Development</h3>
+                                <p>As a proficient web developer, I possess a deep understanding of front-end and back-end technologies, a keen eye for design, and a strong problem-solving ability, enabling me to craft robust, user-friendly websites and applications that meet both client and user expectations.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
                 </div>
             </div>
         </div>
