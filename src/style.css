@@ -256,7 +256,7 @@ body {
     transform: translateX(-50%);
     background-color: transparent;
     min-height: 60vh;
-    padding: 200px 0px;
+    padding: 150px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
