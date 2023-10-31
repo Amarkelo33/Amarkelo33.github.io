@@ -256,7 +256,7 @@ body {
     transform: translateX(-50%);
     background-color: transparent;
     min-height: 60vh;
-    padding: 100px 0px;
+    padding: 200px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -363,7 +363,7 @@ li {
 }
 
 
-.column-item::before {
+/* .column-item::before {
     content: ' ';
     display: block;
     width: 65px;
@@ -372,9 +372,9 @@ li {
     position: relative;
     top: 40px;
     left: -65px;
-}
+} */
 
-.head-text::before {
+/* .head-text::before {
     content: ' ';
     display: block;
     width: 2px;
@@ -394,7 +394,7 @@ li {
     position: absolute;
     top: 327px;
     left: 854px;
-}
+} */
 
 
 /* KEYFRAMES */
