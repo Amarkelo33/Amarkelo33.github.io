@@ -243,7 +243,7 @@ body {
 .blog-wrapper {
     display: grid;
     grid-template-columns: 100%;
-    grid-gap: 20px;
+    place-items: center;
 }
 
 
