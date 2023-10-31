@@ -246,6 +246,155 @@ body {
     place-items: center;
 }
 
+/* EXPERIENCE */
+
+.experience-container {
+    position: absolute;
+    top: 200vh;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    min-height: 60vh;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.experience-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.experience-title > h2 {
+    color: aqua;
+    font-size: 30px;
+}
+
+.experience-title > h3 {
+    color: white;
+    font-size: 40px;
+}
+
+.experience-main {
+    color: white;
+}
+
+.line.descr.experience {
+    width: 100px;
+}
+
+.experience-resume {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 50px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.column-title {
+    color: aqua;
+    font-size: 28px;
+}
+
+.column-title::before {
+    content: ' ';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: -35px;
+    background-color: white;
+}
+
+.column-item {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.head-text > h4 {
+    color: aqua;
+    font-size: 24px;
+}
+
+.head-subtitle {
+    color: white;
+    font-size: 20px;
+}
+
+li {
+    margin-top: 50px;
+    list-style: none;
+}
+
+.item-body {
+    color: white;
+    font-size: 24px;
+}
+
+.head-icon {
+    display: block;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.item-head {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.head-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.column-item::before {
+    content: ' ';
+    display: block;
+    width: 65px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    top: 40px;
+    left: -65px;
+}
+
+.head-text::before {
+    content: ' ';
+    display: block;
+    width: 2px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    left: 120px;
+    top: 320px;
+}
+
+.head-text.work::before {
+    content: ' ';
+    display: block;
+    width: 2px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 327px;
+    left: 854px;
+}
 
 
 /* KEYFRAMES */
