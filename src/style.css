@@ -291,10 +291,12 @@ body {
 
 .experience-resume {
     display: grid;
-    grid-template-columns: 40% 40%;
-    gap: 50px;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    gap: 100px;
     justify-content: center;
     align-items: flex-start;
+    width: 60%;
 }
 
 .column-title {
@@ -363,38 +365,26 @@ li {
 }
 
 
-/* .column-item::before {
+.column-item::before {
     content: ' ';
     display: block;
-    width: 65px;
+    width: 64px;
     height: 2px;
     background-color: white;
     position: relative;
     top: 40px;
-    left: -65px;
-} */
-
-/* .head-text::before {
-    content: ' ';
-    display: block;
-    width: 2px;
-    height: 400px;
-    background-color: white;
-    position: absolute;
-    left: 120px;
-    top: 320px;
+    left: -64px;
 }
 
-.head-text.work::before {
-    content: ' ';
+.column-item::after {
+    content: '';
     display: block;
-    width: 2px;
-    height: 400px;
-    background-color: white;
     position: absolute;
-    top: 327px;
-    left: 854px;
-} */
+    height: 230px;
+    width: 2px;
+    background-color: white;
+    left: 18.5%
+}
 
 
 /* KEYFRAMES */
