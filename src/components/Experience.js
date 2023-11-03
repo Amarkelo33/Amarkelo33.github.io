@@ -12,6 +12,7 @@ function Experience() {
             <div className = 'experience-resume'>
                 <div className = 'resume-column education'>
                     <h3 className = 'column-title'>Education</h3>
+                    <div className = 'line descr resume'></div>
                     <ul>
                         <li>
                             <div className = 'column-item'>
@@ -45,6 +46,7 @@ function Experience() {
                 </div>
                 <div className = 'resume-column work'>
                     <h3 className = 'column-title'>Work Experience</h3>
+                    <div className = 'line descr resume'></div>
                     <ul>
                         <li>
                             <div className = 'column-item'>
