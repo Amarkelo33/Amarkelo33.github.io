@@ -159,7 +159,7 @@ body {
     position: absolute;
     top: 100vh;
     background-color: black;
-    min-height: 60vh;
+    max-height: 100vh;
     padding: 100px 150px;
 }
 
@@ -250,20 +250,19 @@ body {
 
 .experience-container {
     position: absolute;
-    top: 200vh;
+    top: 210vh;
     left: 50%;
     width: 100%;
     transform: translateX(-50%);
     background-color: transparent;
-    min-height: 60vh;
-    padding: 150px 0px;
+    max-height: 175vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 60px;
 }
 
-.experience-title {
+.title {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -271,12 +270,12 @@ body {
     gap: 30px;
 }
 
-.experience-title > h2 {
+.title > h2 {
     color: aqua;
     font-size: 30px;
 }
 
-.experience-title > h3 {
+.title > h3 {
     color: white;
     font-size: 40px;
 }
@@ -315,18 +314,6 @@ body {
     background-color: white;
     border-style:groove;
 }
-
-/* .column-title::before {
-    content: ' ';
-    display: block;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    position: relative;
-    top: 20px;
-    left: -35px;
-    background-color: white;
-} */
 
 .column-item {
     display: flex;
@@ -404,7 +391,56 @@ body {
     background-color: rgba(0,0,0,0.8);
 }
 
+/* SKILLS */
+.skills-container {
+    position: absolute;
+    top: 402vh;
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: 100vh;
+    background-color: black;
+    width: 100%;
+    padding: 50px;
+}
 
+.grid-container {
+    display: grid;
+    grid-template: repeat(2, minmax(300px, auto))/repeat(4, 300px);
+    grid-auto-rows: minmax(300px, auto);
+    gap: 15px;
+    margin: 50px;
+    place-content: center;
+}
+
+.grid-element {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid white;
+    padding: 30px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+.element-pic {
+    width: 50px;
+    height: 50px;
+}
+
+.element-name {
+    color: aqua;
+    font-size: 22px;
+}
+
+.element-descr {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.line.descr.skills {
+    width: 120px;
+}
 
 /* KEYFRAMES */
 

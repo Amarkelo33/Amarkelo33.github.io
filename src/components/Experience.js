@@ -8,7 +8,7 @@ import '../style.css'
 function Experience() {
     return (
         <div className = 'experience-container'>
-            <div className = 'experience-title'>
+            <div className = 'title experience-title'>
                 <h2>Experience</h2>
                 <h3>What I can do</h3>
                 <div className = 'line descr experience'></div>
