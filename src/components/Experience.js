@@ -1,4 +1,6 @@
 import React from 'react'
+import studentIcon from '../icons/student.svg'
+import udemyIcon from '../icons/udemy.svg'
 import '../style.css'
 
 function Experience() {
@@ -17,7 +19,9 @@ function Experience() {
                         <li>
                             <div className = 'column-item'>
                                 <div className = 'item-head'>
-                                    <div className = 'head-icon'></div>
+                                    <div className = 'head-icon'>
+                                        <img src = {studentIcon} alt = "student"></img>
+                                    </div>
                                     <div className = 'head-text'>
                                         <h4 className = 'head-title'>Western Governors University (WGU)</h4>
                                         <div className = 'head-subtitle'>Bachelor's Degree (2023 - Present)</div>
@@ -31,7 +35,9 @@ function Experience() {
                         <li>
                             <div className = 'column-item'>
                                 <div className = 'item-head'>
-                                    <div className = 'head-icon'></div>
+                                    <div className = 'head-icon udemy'>
+                                    <img src = {udemyIcon} alt = "udemy"></img>
+                                    </div>
                                     <div className = 'head-text'>
                                         <h4 className = 'head-title'>Udemy (Online Platform)</h4>
                                         <div className = 'head-subtitle'>Web Development Online Course</div>
@@ -44,7 +50,7 @@ function Experience() {
                         </li>
                     </ul>
                 </div>
-                <div className = 'resume-column work'>
+                {/* <div className = 'resume-column work'>
                     <h3 className = 'column-title'>Work Experience</h3>
                     <div className = 'line descr resume'></div>
                     <ul>
@@ -77,7 +83,7 @@ function Experience() {
                             </div>
                         </li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </div>
     )
