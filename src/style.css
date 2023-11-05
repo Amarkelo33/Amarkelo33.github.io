@@ -9,6 +9,12 @@ body {
     height: 100%;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 #tsparticles {
     position: absolute;
     z-index: -1;
@@ -20,13 +26,13 @@ body {
     display: flex;
     text-align: center;
     flex-direction: column;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 500px;
+    position: relative;
+    place-content: center;
+    height: 100vh;
+    top: 0;
+    left: 0;
     gap: 35px;
-    z-index: 2;
+    z-index: 1;
 }
 
 .main-promo > h2 {
@@ -156,10 +162,8 @@ body {
 /* ABOUT */
 
 .about-container {
-    position: absolute;
-    top: 100vh;
+    position: relative;
     background-color: black;
-    max-height: 100vh;
     padding: 100px 150px;
 }
 
@@ -249,16 +253,11 @@ body {
 /* EXPERIENCE */
 
 .experience-container {
-    position: absolute;
-    top: 215vh;
-    left: 50%;
-    width: 100%;
-    transform: translateX(-50%);
-    background-color: transparent;
-    max-height: 175vh;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px;
     gap: 60px;
 }
 
@@ -393,14 +392,10 @@ body {
 
 /* SKILLS */
 .skills-container {
-    position: absolute;
-    top: 410vh;
-    left: 50%;
-    transform: translateX(-50%);
-    max-height: 100vh;
-    background-color: rgba(0,0,0,0.8);
+    position: relative;
     padding: 50px;
     border-radius: 10px;
+    background-color: black;
 }
 
 .grid-container {
