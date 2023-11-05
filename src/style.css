@@ -250,7 +250,7 @@ body {
 
 .experience-container {
     position: absolute;
-    top: 210vh;
+    top: 215vh;
     left: 50%;
     width: 100%;
     transform: translateX(-50%);
@@ -394,12 +394,11 @@ body {
 /* SKILLS */
 .skills-container {
     position: absolute;
-    top: 402vh;
+    top: 415vh;
     left: 50%;
     transform: translateX(-50%);
     max-height: 100vh;
     background-color: black;
-    width: 100%;
     padding: 50px;
 }
 
