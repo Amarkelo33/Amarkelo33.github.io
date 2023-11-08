@@ -10,9 +10,9 @@ import '../style.css'
 function Skills() {
     return (
         <div className = 'skills-container'>
-            <div className = 'title skills-title'>
-                <h2>Skills</h2>
-                <h3>What I know</h3>
+            <div className = 'title-block'>
+                <h2 className = 'title skills'>Skills</h2>
+                <h3 className = 'subtitle skills'>What I know</h3>
                 <div className = 'line descr skills'></div>
             </div>
             <div className = 'grid-container'>

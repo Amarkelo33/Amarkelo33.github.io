@@ -44,8 +44,8 @@ function Main(props) {
                 </div>
             </div>
             <div className = 'main-promo'>
-                <h2>Welcome!</h2>
-                <h1>I am a Web Developer from Colorado Springs</h1>
+                <h2 className = 'title main'>Welcome!</h2>
+                <h1 className = 'subtitle main'>I am a Web Developer from Colorado Springs</h1>
                 <div className = 'main-btns'>
                     <button className = 'main-btn portfolio'>Portfolio</button>
                     <button className = 'main-btn about'>About</button>

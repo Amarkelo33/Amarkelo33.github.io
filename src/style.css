@@ -1,3 +1,5 @@
+/* DEFAULT SETTINGS */
+
 * {
     box-sizing: content-box;
     margin: 0;
@@ -9,16 +11,39 @@ body {
     height: 100%;
 }
 
+/* BACKGROUND */
+
+#tsparticles {
+    position: absolute;
+    z-index: -1;
+  }
+
+  /* GENERAL */
 .container {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-#tsparticles {
-    position: absolute;
-    z-index: -1;
-  }
+.title {
+    color: aqua;
+    font-size: 30px;
+}
+
+.subtitle {
+    color: white;
+    font-size: 40px;
+}
+
+.title-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/* -------------------- */
 
 /* ---MAIN--- */
 
@@ -35,14 +60,7 @@ body {
     z-index: 1;
 }
 
-.main-promo > h2 {
-    color: aqua;
-    font-size: 30px;
-}
-
-.main-promo > h1 {
-    color: white;
-    font-size: 40px;
+.subtitle.main {
     line-height: 50px;
 }
 
@@ -184,14 +202,8 @@ body {
     gap: 10px;
 }
 
-.about-text > h3 {
-    color: aqua;
-    font-size: 30px;
+.title.about {
     z-index: 1;
-}
-
-.about-text > h2 {
-    font-size: 40px;
 }
 
 .line.descr {
@@ -259,24 +271,6 @@ body {
     align-items: center;
     padding: 50px;
     gap: 60px;
-}
-
-.title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-
-.title > h2 {
-    color: aqua;
-    font-size: 30px;
-}
-
-.title > h3 {
-    color: white;
-    font-size: 40px;
 }
 
 .experience-main {

@@ -11,8 +11,8 @@ function About() {
                     <img src = {aboutPic} alt = 'About me'></img>
                 </div>
                 <div className = 'about-text'>
-                    <h3>About me</h3>
-                    <h2>My name is <i>Artem</i>!</h2>
+                    <h3 className = 'title about'>About me</h3>
+                    <h2 className = 'subtitle about'>My name is <i>Artem</i>!</h2>
                     <div className = 'line descr'></div>
                     <div className = 'about-descr'>
                         <p>
