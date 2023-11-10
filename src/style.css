@@ -58,6 +58,7 @@ body {
     left: 0;
     gap: 35px;
     z-index: 1;
+    padding: 0px 20px;
 }
 
 .subtitle.main {
@@ -394,8 +395,7 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template: repeat(2, minmax(300px, auto))/repeat(4, 300px);
-    grid-auto-rows: minmax(300px, auto);
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
     gap: 15px;
     margin: 50px;
     place-content: center;
@@ -445,4 +445,27 @@ body {
     0% {opacity: 0;}
 
     100% {opacity: 1;}
+}
+
+/* MEDIA */
+@media screen and (min-width: 320px) and (max-width: 1500px) {
+    .about-pic > img {
+        width: 500px;
+        height: auto;
+    }
+    
+    .about-main {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        gap: 80px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .main-hamburger {
+        left: 90%;
+    }
 }
