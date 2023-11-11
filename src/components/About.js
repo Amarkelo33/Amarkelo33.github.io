@@ -1,13 +1,11 @@
 import React from 'react'
 import aboutPic from '../img/about-promo.jpeg'
 import wrapperIcon from '../icons/coding.svg'
-import Layout from './Layout'
 import '../style.css'
 
 function About() {
     return (
         <div>
-            <Layout/>
             <div className = 'about-container'>
                 <div className = 'about-main'>
                     <div className = 'about-pic'>
