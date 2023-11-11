@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Amarkelo33/static/css/main.ba72173a.css",
+    "main.js": "/Amarkelo33/static/js/main.0d7fe09c.js",
+    "static/media/about-promo.jpeg": "/Amarkelo33/static/media/about-promo.00d2d2c26accb0f1d754.jpeg",
+    "static/media/react.svg": "/Amarkelo33/static/media/react.f41f8fcbf0772f16ec57b3db64ba0b9f.svg",
+    "static/media/student.svg": "/Amarkelo33/static/media/student.8b596720721f122dcacf13e57b6c6b81.svg",
+    "static/media/sql.svg": "/Amarkelo33/static/media/sql.b62a3fe33a02c1ca73c20e1ac0b907a3.svg",
+    "static/media/udemy.svg": "/Amarkelo33/static/media/udemy.94f7347225803cb03b0ddc79d31dcae0.svg",
+    "static/media/freelance.svg": "/Amarkelo33/static/media/freelance.fb29175182e86056951d3005c2058eb0.svg",
+    "static/media/javascript.svg": "/Amarkelo33/static/media/javascript.87a6904ffa190a37c824d0b73ff669c4.svg",
+    "index.html": "/Amarkelo33/index.html",
+    "static/media/coding.svg": "/Amarkelo33/static/media/coding.dd2509bde417962721e8a78b526b8787.svg",
+    "static/media/data.svg": "/Amarkelo33/static/media/data.4d0803e8025689c2856fba2938ba2c2d.svg",
+    "static/media/css3.svg": "/Amarkelo33/static/media/css3.3b09ac3fe497b5c8138d4e8101bc62ee.svg",
+    "static/media/git.svg": "/Amarkelo33/static/media/git.edd16ea0c2abbdab94134ca45d672605.svg",
+    "static/media/html5.svg": "/Amarkelo33/static/media/html5.655fc5b2390f611ade1bcfe511a0f825.svg",
+    "main.ba72173a.css.map": "/Amarkelo33/static/css/main.ba72173a.css.map",
+    "main.0d7fe09c.js.map": "/Amarkelo33/static/js/main.0d7fe09c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba72173a.css",
+    "static/js/main.0d7fe09c.js"
+  ]
+}
