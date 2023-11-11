@@ -4,8 +4,9 @@ import About from './components/About'
 import Experience from './components/Experience';
 import Skills from './components/Skills'
 import { useCallback } from "react";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+import Particles from 'react-tsparticles';
+import { loadFull } from 'tsparticles';
+import {Routes, Route} from 'react-router-dom'
 import './style.css'
 
 function App() {
@@ -586,10 +587,13 @@ function App() {
                     }
                   }}
             />
-            <Main/>
-            <About/>
-            <Experience/>
-            <Skills/>
+          <Routes>
+            <Route path="/" element={<Main />}>
+              <Route path="about" element={<About />} />
+              <Route path="experience" element={<Experience />} />
+              <Route path="skills" element={<Skills />} />
+          </Route>
+        </Routes>
         </div>
     )
 }
