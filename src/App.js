@@ -6,8 +6,9 @@ import Skills from './components/Skills'
 import { useCallback } from "react";
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
-import {Routes, Route} from 'react-router-dom'
+import {Routes, Route, Navigate} from 'react-router-dom'
 import './style.css'
+import Layout from './components/Layout';
 
 function App() {
 
@@ -588,10 +589,15 @@ function App() {
                   }}
             />
           <Routes>
-            <Route path="/" element={<Main />}>
-              <Route path="about" element={<About />} />
-              <Route path="experience" element={<Experience />} />
-              <Route path="skills" element={<Skills />} />
+            <Route path="/" element={<Layout />}>
+              <Route
+              path="/"
+              element={<Navigate to="/main" />}
+              />
+              <Route path="/main" element={<Main />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/experience" element={<Experience />} />
+              <Route path="/skills" element={<Skills />} />
           </Route>
         </Routes>
         </div>

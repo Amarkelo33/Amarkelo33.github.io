@@ -1,6 +1,5 @@
 import React from 'react'
 import Layout from './Layout'
-import {Outlet} from 'react-router-dom'
 import '../style.css'
 
 function Main(props) {
@@ -16,7 +15,6 @@ function Main(props) {
                     <button className = 'main-btn about'>About</button>
                 </div>
             </div>
-            <Outlet/>
         </div>
     )
 }

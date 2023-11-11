@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {Link, Outlet} from 'react-router-dom'
 import '../style.css'
 
 function Layout(props) {
@@ -23,7 +23,7 @@ function Layout(props) {
                 </div>
                 <ul className = 'nav-links'>
                 <li className = 'nav-link'>
-                        <Link onClick = {toggleHamburger} to = '/'>Main</Link>
+                        <Link onClick = {toggleHamburger} to = '/main'>Main</Link>
                     </li>
                     <li className = 'nav-link'>
                         <Link onClick = {toggleHamburger} to = '/about'>About me</Link>
@@ -56,7 +56,8 @@ function Layout(props) {
                     `
                 }</style>
             </div>
-        </div>
+            </div>
+            <Outlet/>
         </div>
     )
 }
