@@ -8,6 +8,7 @@ import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 import {Routes, Route} from 'react-router-dom'
 import './style.css'
+import Layout from './components/Layout';
 
 function App() {
 

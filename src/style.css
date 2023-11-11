@@ -43,6 +43,11 @@ body {
     gap: 30px;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 /* -------------------- */
 
 /* ---MAIN--- */

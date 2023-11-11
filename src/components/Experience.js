@@ -4,10 +4,13 @@ import udemyIcon from '../icons/udemy.svg'
 import dataIcon from '../icons/data.svg'
 import freelanceIcon from '../icons/freelance.svg'
 import '../style.css'
+import Layout from './Layout'
 
 function Experience() {
     return (
-        <div className = 'experience-container'>
+        <div>
+            <Layout/>
+            <div className = 'experience-container'>
             <div className = 'title-block'>
                 <h2 className = 'title experience'>Experience</h2>
                 <h3 className = 'subtitle experience'>What I can do</h3>
@@ -113,6 +116,8 @@ function Experience() {
                 </div>
             </div>
         </div>
+        </div>
+
     )
 }
 

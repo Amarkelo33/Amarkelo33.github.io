@@ -1,10 +1,11 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import {Outlet} from 'react-router-dom'
 import '../style.css'
 
 function Layout(props) {
 
-    const [hamburgerOpen, setHamburgerOpen] = React.useState(false)
+    const [hamburgerOpen, setHamburgerOpen] = React.useState(false);
 
     const toggleHamburger = () => {
         setHamburgerOpen(!hamburgerOpen)
@@ -15,29 +16,30 @@ function Layout(props) {
     }
 
     return (
-        <div className = 'main-menu'>
+        <div>
+            <div className = 'main-menu'>
             <div className = 'main-nav'>
                 <div onClick={toggleHamburger} className = 'nav-close'>
                     <GrClose />
                 </div>
                 <ul className = 'nav-links'>
                 <li className = 'nav-link'>
-                        <Link to = '/'>Home</Link>
+                        <Link onClick = {toggleHamburger} to = '/'>Main</Link>
                     </li>
                     <li className = 'nav-link'>
-                        <Link to = '/about'>About me</Link>
+                        <Link onClick = {toggleHamburger} to = '/about'>About me</Link>
                     </li>
                     <li className = 'nav-link'>
-                        <Link to = "experience">My Experience</Link>
+                        <Link onClick = {toggleHamburger} to = "/experience">My Experience</Link>
                     </li>
                     <li className = 'nav-link'>
-                        <Link to = "skills">My abilities</Link>
+                        <Link onClick = {toggleHamburger} to = "/skills">My abilities</Link>
                     </li>
                     <li className = 'nav-link'>
-                        <Link>My projects</Link>
+                        <Link onClick = {toggleHamburger}>My projects</Link>
                     </li>
                     <li className = 'nav-link'>
-                        <Link>Contact Me</Link>
+                        <Link onClick = {toggleHamburger}>Contact Me</Link>
                     </li>
                 </ul>
             </div>
@@ -55,6 +57,7 @@ function Layout(props) {
                     `
                 }</style>
             </div>
+        </div>
         </div>
     )
 }
