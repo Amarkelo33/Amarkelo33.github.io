@@ -450,6 +450,10 @@ a {
     padding: 100px;
 }
 
+.main-btn.about a {
+    color: black;
+}
+
 /* KEYFRAMES */
 
 @keyframes openMenu {
