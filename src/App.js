@@ -3,6 +3,7 @@ import Main from './components/Main'
 import About from './components/About'
 import Experience from './components/Experience';
 import Skills from './components/Skills'
+import Cover from './components/Cover'
 import { useCallback } from "react";
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
@@ -598,6 +599,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/experience" element={<Experience />} />
               <Route path="/skills" element={<Skills />} />
+              <Route path ="/cover" element = {<Cover/>} />
           </Route>
         </Routes>
         </div>

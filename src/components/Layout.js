@@ -35,10 +35,10 @@ function Layout(props) {
                         <Link onClick = {toggleHamburger} to = "/skills">My abilities</Link>
                     </li>
                     <li className = 'nav-link'>
-                        <Link onClick = {toggleHamburger}>My projects</Link>
+                        <Link onClick = {toggleHamburger} to = "/cover">My projects</Link>
                     </li>
                     <li className = 'nav-link'>
-                        <Link onClick = {toggleHamburger}>Contact Me</Link>
+                        <Link onClick = {toggleHamburger} to = "/cover">Contact Me</Link>
                     </li>
                 </ul>
             </div>
