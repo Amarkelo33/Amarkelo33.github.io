@@ -394,7 +394,7 @@ a {
 .skills-container {
     position: relative;
     padding: 100px 50px;
-    height: 85vh;
+    min-height: 85vh;
     border-radius: 10px;
     background-color: black;
 }
