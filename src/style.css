@@ -271,13 +271,12 @@ a {
 /* EXPERIENCE */
 
 .experience-container {
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 65vh;
     background-color: rgba(0,0,0,0.1);
-    padding: 100px 50px;
+    padding: 100px 50px 20px 50px;
     gap: 60px;
 }
 
