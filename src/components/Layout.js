@@ -37,9 +37,9 @@ function Layout(props) {
                     <li className = 'nav-link'>
                         <Link onClick = {toggleHamburger} to = "/portfolio">My portfolio</Link>
                     </li>
-                    <li className = 'nav-link'>
+                    {/* <li className = 'nav-link'>
                         <Link onClick = {toggleHamburger} to = "/cover">Contact Me</Link>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
             <div onClick={toggleHamburger} className = 'main-hamburger'>
