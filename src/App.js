@@ -10,6 +10,7 @@ import { loadFull } from 'tsparticles';
 import {Routes, Route, Navigate} from 'react-router-dom'
 import './style.css'
 import Layout from './components/Layout';
+import Projects from './components/Project';
 
 function App() {
 
@@ -599,6 +600,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/experience" element={<Experience />} />
               <Route path="/skills" element={<Skills />} />
+              <Route path = "/portfolio" element = {<Projects />} /> 
               <Route path ="/cover" element = {<Cover/>} />
           </Route>
         </Routes>

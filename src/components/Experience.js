@@ -9,7 +9,6 @@ import Layout from './Layout'
 function Experience() {
     return (
         <div>
-            <Layout/>
             <div className = 'experience-container'>
             <div className = 'title-block'>
                 <h2 className = 'title experience'>Experience</h2>

@@ -466,6 +466,38 @@ a {
     color: black;
 }
 
+/* PORTFOLIO */
+
+.grid-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.grid-container.portfolio {
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.grid-element.portfolio {
+    border: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 30px 30px 0px 30px;
+    transition: 0.5s all ease-out;
+}
+
+.grid-element.portfolio:hover {
+    transform: scale(1.05);
+    transition: 0.5s all;
+    box-shadow: 5px 5px 10px white;
+}
+
+.text.portfolio{
+    color: white;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
 /* KEYFRAMES */
 
 @keyframes openMenu {

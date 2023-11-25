@@ -13,7 +13,7 @@ function Main(props) {
                 <h1 className = 'subtitle main'>I am a Web Developer from Colorado Springs</h1>
                 <div className = 'main-btns'>
                     <button className = 'main-btn portfolio'>
-                        <Link to ='/cover'>Portfolio</Link>
+                        <Link to ='/portfolio'>Portfolio</Link>
                     </button>
                     <button className = 'main-btn about'>
                         <Link to = '/about'>About</Link>
